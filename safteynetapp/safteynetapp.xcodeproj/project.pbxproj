@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51E3248614E2A35800FDF4A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E3248514E2A35800FDF4A2 /* UIKit.framework */; };
+		51E3248814E2A35800FDF4A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E3248714E2A35800FDF4A2 /* Foundation.framework */; };
+		51E3248A14E2A35800FDF4A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E3248914E2A35800FDF4A2 /* CoreGraphics.framework */; };
+		51E3249014E2A35800FDF4A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51E3248E14E2A35800FDF4A2 /* InfoPlist.strings */; };
+		51E3249214E2A35800FDF4A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E3249114E2A35800FDF4A2 /* main.m */; };
+		51E3249614E2A35800FDF4A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E3249514E2A35800FDF4A2 /* AppDelegate.m */; };
+		51E3249914E2A35800FDF4A2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E3249714E2A35800FDF4A2 /* MainStoryboard.storyboard */; };
+		51E3249C14E2A35800FDF4A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E3249B14E2A35800FDF4A2 /* ViewController.m */; };
+		51E324A414E2A35800FDF4A2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E324A314E2A35800FDF4A2 /* SenTestingKit.framework */; };
+		51E324A514E2A35800FDF4A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E3248514E2A35800FDF4A2 /* UIKit.framework */; };
+		51E324A614E2A35800FDF4A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E3248714E2A35800FDF4A2 /* Foundation.framework */; };
+		51E324AE14E2A35800FDF4A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51E324AC14E2A35800FDF4A2 /* InfoPlist.strings */; };
+		51E324B114E2A35800FDF4A2 /* safteynetappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E324B014E2A35800FDF4A2 /* safteynetappTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51E324A714E2A35800FDF4A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51E3247814E2A35800FDF4A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51E3248014E2A35800FDF4A2;
+			remoteInfo = safteynetapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51E3248114E2A35800FDF4A2 /* safteynetapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = safteynetapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E3248514E2A35800FDF4A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		51E3248714E2A35800FDF4A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51E3248914E2A35800FDF4A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		51E3248D14E2A35800FDF4A2 /* safteynetapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "safteynetapp-Info.plist"; sourceTree = "<group>"; };
+		51E3248F14E2A35800FDF4A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51E3249114E2A35800FDF4A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51E3249314E2A35800FDF4A2 /* safteynetapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "safteynetapp-Prefix.pch"; sourceTree = "<group>"; };
+		51E3249414E2A35800FDF4A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51E3249514E2A35800FDF4A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51E3249814E2A35800FDF4A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		51E3249A14E2A35800FDF4A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		51E3249B14E2A35800FDF4A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51E324A214E2A35800FDF4A2 /* safteynetappTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = safteynetappTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E324A314E2A35800FDF4A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		51E324AB14E2A35800FDF4A2 /* safteynetappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "safteynetappTests-Info.plist"; sourceTree = "<group>"; };
+		51E324AD14E2A35800FDF4A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51E324AF14E2A35800FDF4A2 /* safteynetappTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = safteynetappTests.h; sourceTree = "<group>"; };
+		51E324B014E2A35800FDF4A2 /* safteynetappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = safteynetappTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51E3247E14E2A35800FDF4A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E3248614E2A35800FDF4A2 /* UIKit.framework in Frameworks */,
+				51E3248814E2A35800FDF4A2 /* Foundation.framework in Frameworks */,
+				51E3248A14E2A35800FDF4A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E3249E14E2A35800FDF4A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E324A414E2A35800FDF4A2 /* SenTestingKit.framework in Frameworks */,
+				51E324A514E2A35800FDF4A2 /* UIKit.framework in Frameworks */,
+				51E324A614E2A35800FDF4A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51E3247614E2A35800FDF4A2 = {
+			isa = PBXGroup;
+			children = (
+				51E3248B14E2A35800FDF4A2 /* safteynetapp */,
+				51E324A914E2A35800FDF4A2 /* safteynetappTests */,
+				51E3248414E2A35800FDF4A2 /* Frameworks */,
+				51E3248214E2A35800FDF4A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51E3248214E2A35800FDF4A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51E3248114E2A35800FDF4A2 /* safteynetapp.app */,
+				51E324A214E2A35800FDF4A2 /* safteynetappTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51E3248414E2A35800FDF4A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51E3248514E2A35800FDF4A2 /* UIKit.framework */,
+				51E3248714E2A35800FDF4A2 /* Foundation.framework */,
+				51E3248914E2A35800FDF4A2 /* CoreGraphics.framework */,
+				51E324A314E2A35800FDF4A2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51E3248B14E2A35800FDF4A2 /* safteynetapp */ = {
+			isa = PBXGroup;
+			children = (
+				51E3249414E2A35800FDF4A2 /* AppDelegate.h */,
+				51E3249514E2A35800FDF4A2 /* AppDelegate.m */,
+				51E3249714E2A35800FDF4A2 /* MainStoryboard.storyboard */,
+				51E3249A14E2A35800FDF4A2 /* ViewController.h */,
+				51E3249B14E2A35800FDF4A2 /* ViewController.m */,
+				51E3248C14E2A35800FDF4A2 /* Supporting Files */,
+			);
+			path = safteynetapp;
+			sourceTree = "<group>";
+		};
+		51E3248C14E2A35800FDF4A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51E3248D14E2A35800FDF4A2 /* safteynetapp-Info.plist */,
+				51E3248E14E2A35800FDF4A2 /* InfoPlist.strings */,
+				51E3249114E2A35800FDF4A2 /* main.m */,
+				51E3249314E2A35800FDF4A2 /* safteynetapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51E324A914E2A35800FDF4A2 /* safteynetappTests */ = {
+			isa = PBXGroup;
+			children = (
+				51E324AF14E2A35800FDF4A2 /* safteynetappTests.h */,
+				51E324B014E2A35800FDF4A2 /* safteynetappTests.m */,
+				51E324AA14E2A35800FDF4A2 /* Supporting Files */,
+			);
+			path = safteynetappTests;
+			sourceTree = "<group>";
+		};
+		51E324AA14E2A35800FDF4A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51E324AB14E2A35800FDF4A2 /* safteynetappTests-Info.plist */,
+				51E324AC14E2A35800FDF4A2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51E3248014E2A35800FDF4A2 /* safteynetapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E324B414E2A35800FDF4A2 /* Build configuration list for PBXNativeTarget "safteynetapp" */;
+			buildPhases = (
+				51E3247D14E2A35800FDF4A2 /* Sources */,
+				51E3247E14E2A35800FDF4A2 /* Frameworks */,
+				51E3247F14E2A35800FDF4A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = safteynetapp;
+			productName = safteynetapp;
+			productReference = 51E3248114E2A35800FDF4A2 /* safteynetapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51E324A114E2A35800FDF4A2 /* safteynetappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E324B714E2A35800FDF4A2 /* Build configuration list for PBXNativeTarget "safteynetappTests" */;
+			buildPhases = (
+				51E3249D14E2A35800FDF4A2 /* Sources */,
+				51E3249E14E2A35800FDF4A2 /* Frameworks */,
+				51E3249F14E2A35800FDF4A2 /* Resources */,
+				51E324A014E2A35800FDF4A2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51E324A814E2A35800FDF4A2 /* PBXTargetDependency */,
+			);
+			name = safteynetappTests;
+			productName = safteynetappTests;
+			productReference = 51E324A214E2A35800FDF4A2 /* safteynetappTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51E3247814E2A35800FDF4A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 51E3247B14E2A35800FDF4A2 /* Build configuration list for PBXProject "safteynetapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 51E3247614E2A35800FDF4A2;
+			productRefGroup = 51E3248214E2A35800FDF4A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51E3248014E2A35800FDF4A2 /* safteynetapp */,
+				51E324A114E2A35800FDF4A2 /* safteynetappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51E3247F14E2A35800FDF4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E3249014E2A35800FDF4A2 /* InfoPlist.strings in Resources */,
+				51E3249914E2A35800FDF4A2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E3249F14E2A35800FDF4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E324AE14E2A35800FDF4A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51E324A014E2A35800FDF4A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51E3247D14E2A35800FDF4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E3249214E2A35800FDF4A2 /* main.m in Sources */,
+				51E3249614E2A35800FDF4A2 /* AppDelegate.m in Sources */,
+				51E3249C14E2A35800FDF4A2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E3249D14E2A35800FDF4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E324B114E2A35800FDF4A2 /* safteynetappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51E324A814E2A35800FDF4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51E3248014E2A35800FDF4A2 /* safteynetapp */;
+			targetProxy = 51E324A714E2A35800FDF4A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51E3248E14E2A35800FDF4A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E3248F14E2A35800FDF4A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51E3249714E2A35800FDF4A2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E3249814E2A35800FDF4A2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		51E324AC14E2A35800FDF4A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E324AD14E2A35800FDF4A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51E324B214E2A35800FDF4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51E324B314E2A35800FDF4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51E324B514E2A35800FDF4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "safteynetapp/safteynetapp-Prefix.pch";
+				INFOPLIST_FILE = "safteynetapp/safteynetapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51E324B614E2A35800FDF4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "safteynetapp/safteynetapp-Prefix.pch";
+				INFOPLIST_FILE = "safteynetapp/safteynetapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		51E324B814E2A35800FDF4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/safteynetapp.app/safteynetapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "safteynetapp/safteynetapp-Prefix.pch";
+				INFOPLIST_FILE = "safteynetappTests/safteynetappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		51E324B914E2A35800FDF4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/safteynetapp.app/safteynetapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "safteynetapp/safteynetapp-Prefix.pch";
+				INFOPLIST_FILE = "safteynetappTests/safteynetappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51E3247B14E2A35800FDF4A2 /* Build configuration list for PBXProject "safteynetapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E324B214E2A35800FDF4A2 /* Debug */,
+				51E324B314E2A35800FDF4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E324B414E2A35800FDF4A2 /* Build configuration list for PBXNativeTarget "safteynetapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E324B514E2A35800FDF4A2 /* Debug */,
+				51E324B614E2A35800FDF4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51E324B714E2A35800FDF4A2 /* Build configuration list for PBXNativeTarget "safteynetappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E324B814E2A35800FDF4A2 /* Debug */,
+				51E324B914E2A35800FDF4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51E3247814E2A35800FDF4A2 /* Project object */;
+}
